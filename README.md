@@ -29,9 +29,13 @@ A .NET medical management system built as a web API, a command-line client, a sh
 ## Skills
 
 **Languages:** Python · C# · C++ · C · Java · JavaScript · TypeScript · SQL · HTML/CSS · Unix
+
 **Frameworks & ML:** PyTorch · scikit-learn · XGBoost · pandas · .NET / ASP.NET Core · .NET MAUI · React · Node.js · FastAPI · REST APIs · Jupyter · D3
+
 **ML methods:** uncertainty quantification · conformal prediction · anomaly detection
+
 **Cloud & data:** Azure (Container Apps, DevOps) · Docker · Git · GitHub Actions · PostgreSQL · SQL Server
+
 **Analytics:** Tableau · Power BI · Power Apps · Power Automate · Excel · Streamlit
 
 <!---
