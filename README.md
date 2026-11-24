@@ -8,39 +8,31 @@ I build end-to-end data and ML systems, from raw data to something deployed, and
 
 ## Projects
 
-### 🪐 [Exoplanet Detection](https://github.com/MikeMurgia/REPO-NAME) · [Live demo](https://YOUR-DEMO-URL)
-Classifies exoplanet candidates from Kepler and TESS light curves with a 1D CNN. Each prediction comes with Monte Carlo Dropout uncertainty intervals and conformal prediction guarantees, so you can see how far to trust it.
-*Python · .NET 9 · JavaScript · Docker · Azure Container Apps (scale-to-zero)*
+### 🔧 [ECHO: Remaining-Useful-Life Prediction](https://github.com/MikeMurgia/echo) · [Live dashboard](https://echorulprediction.streamlit.app/)
+Predicts how long a jet engine has left on NASA's C-MAPSS turbofan data, using Transformer and Mamba models against random forest and XGBoost baselines. Conformal prediction puts calibrated 90% intervals on each prediction, and a cost-based decision layer turns those intervals into a "service now or wait" call. Team project for Projects in Data Science.
+*Python · PyTorch · conformal prediction · Streamlit · 72 unit tests*
 
-### 🕸️ [Connections](https://github.com/MikeMurgia/REPO-NAME)
-A knowledge graph and RAG system over my own academic and project work, and the backend for my portfolio site. The research piece is calibrating the confidence of LLM-extracted facts with conformal methods.
-*.NET · Graph + RAG · LLM extraction*
+### 🛰️ [Spacecraft Anomaly Explorer](https://github.com/MikeMurgia/spacecraft-anomaly-explorer) · [Live site](https://mikemurgia.github.io/spacecraft-anomaly-explorer/)
+An interactive, cockpit-style console for telling real spacecraft faults apart from rare-but-expected events in the European Space Agency's anomaly dataset. The analysis showed that dramatic-looking signals predict anomalies worse than chance, while a simple count of affected channels works well. The README also states the caveats and the small sample.
+*Python · FastAPI · D3 · three.js · GitHub Actions CI · GitHub Pages*
 
-### 📈 [Systematic Trading Bot](https://github.com/MikeMurgia/REPO-NAME)
-A multi-strategy trading framework built async-first, starting with post-earnings-announcement drift (PEAD). It builds on an earlier regime-aware mean-reversion bot that runs on Alpaca paper trading.
-*Python · asyncio · Pydantic v2 · SQLAlchemy 2.0 · Docker Compose*
+### 🪐 Exoplanet Detector *(private repo)*
+A full-stack web app that classifies exoplanet candidates from Kepler and TESS light curves with a 1D CNN, reporting Monte Carlo Dropout uncertainty and conformal prediction guarantees. It was deployed on Azure Container Apps. I'm happy to walk through the code or demo it.
+*Python · .NET 9 · JavaScript · Docker · Azure*
 
-### 🏋️ [Workout Tracker](https://github.com/MikeMurgia/REPO-NAME)
-A full-stack training app I've rebuilt across several architectures, from Node, FastAPI and a Rust 1RM engine to a React/TypeScript rewrite. It includes strength predictions and anomaly detection.
-*React · TypeScript · FastAPI · Rust · PostgreSQL*
-
-### 🎯 [Self-Leveling Plate](https://github.com/MikeMurgia/REPO-NAME)
-An IMU-driven plate on three linear actuators that keeps itself level, planned as a rocket-payload camera gimbal for my AIAA work. It's my first hardware project, and it's in progress.
-*Arduino · C++ · sensor fusion · control loops*
+### 🏥 [Medical Management](https://github.com/MikeMurgia/MedicalManagement)
+A .NET medical management system built as a web API, a command-line client, a shared class library and a .NET MAUI app.
+*C# · .NET · MAUI*
 
 ---
 
 ## Skills
 
-**Languages:** Python · C# · TypeScript · Rust · C++
-**Data/ML:** CNNs · uncertainty quantification · RAG · BI dashboards (Power Apps)
-**Infra:** Docker · Azure · PostgreSQL
-
-## Currently
-
-Building out Connections, learning embedded control, and working on projects with AIAA.
-
-I like talking about applied ML for aerospace, calibrated models, and simulation. I'm open to software, data and ML roles in aerospace and related fields.
+**Languages:** Python · C# · C++ · C · Java · JavaScript · TypeScript · SQL · HTML/CSS · Unix
+**Frameworks & ML:** PyTorch · scikit-learn · XGBoost · pandas · .NET / ASP.NET Core · .NET MAUI · React · Node.js · FastAPI · REST APIs · Jupyter · D3
+**ML methods:** uncertainty quantification · conformal prediction · anomaly detection
+**Cloud & data:** Azure (Container Apps, DevOps) · Docker · Git · GitHub Actions · PostgreSQL · SQL Server
+**Analytics:** Tableau · Power BI · Power Apps · Power Automate · Excel · Streamlit
 
 <!---
 MikeMurgia/MikeMurgia is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
